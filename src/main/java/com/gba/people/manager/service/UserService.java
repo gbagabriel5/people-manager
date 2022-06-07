@@ -9,4 +9,5 @@ public interface UserService {
     UserDto update(UserCustomDto dto);
     List<UserDto> getAll();
     boolean delete(Integer id);
+    UserDto initializeDatabase();
 }
