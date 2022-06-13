@@ -23,6 +23,9 @@ Para realizar os testes da api é preciso ter o **Maven** e **Java 17** instalad
 ````
 mvn clean spring-boot:run
 ````
+### Autenticação
+Autenticação usando SpringSecurity através da autenticação e geração de token JWT por dados de Pessoas
+- Autenticação por pessoa predefinida. Email: gba@gmail.com Senha: 123
 
 ## Tecnologias
 * SpringBoot - O Spring foi usado pela praticidade, velocidade e simplicidade, assim tendo uma maior produtividade.
